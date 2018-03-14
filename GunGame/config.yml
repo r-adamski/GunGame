@@ -1,0 +1,177 @@
+# dane do laczenia sie z baza danych
+MySQL:
+# adres bazy danych zazwyczaj localhost
+    Host:
+# uzytkownik - nick 
+    User:
+# haslo 
+    Password:
+# nazwa bazy danych np. guildPlug
+    Database:
+# zazwyczaj 3306
+    Port:
+    
+    
+#gungame.admin:gungame.vip
+    
+#Level konczacy gre
+lvl: 20
+    
+#spawn
+spawn:
+    world: 'world'
+    x: -6
+    y: 96
+    z: -13
+    
+#amount of kills to grow 1 lvl
+lvlup: 2
+    
+1:
+    #level need to have
+    lvl: 1
+    #list of items
+    items:
+        1:
+            #id of item
+            id: 268
+            #how many this item in stack
+            amount: 1
+            #name on item // type '0' if dont want to change
+            name: '&4MieczTreningowy!'
+            enchants:
+                1:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: 'DAMAGE_ALL'
+                    #enchant power
+                    power: 1
+    effects:
+        1:
+            #name of effect// with capslock // if no effect type '0'
+            name: 'SPEED'
+            #time in ticks // 20 ticks = 1s
+            time: 100
+            #lvl of effect
+            lvl: 1
+2:
+    #level need to have
+    lvl: 3
+    #list of items
+    items:
+        1:
+            #id of item
+            id: 286
+            #how many this item in stack
+            amount: 1
+            #name on item // type '0' if dont want to change
+            name: '&4PozlacanaSiekiera!'
+            enchants:
+                1:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: 'DAMAGE_ALL'
+                    #enchant power
+                    power: 2
+        2:
+            #id of item
+            id: 301
+            #how many this item in stack
+            amount: 1
+            #name on item
+            name: '&4SkorzaneButy!'
+            enchants:
+                1:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: 'PROTECTION_ENVIRONMENTAL'
+                    #enchant power
+                    power: 1
+    effects:
+        1:
+            #name of effect// with capslock // if no effect type '0'
+            name: 'SPEED'
+            #time in ticks // 20 ticks = 1s
+            time: 100
+            #lvl of effect
+            lvl: 1
+3:
+    #level need to have
+    lvl: 6
+    #list of items
+    items:
+        1:
+            #id of item
+            id: 261
+            #how many this item in stack
+            amount: 1
+            #name on item // type '0' if dont want to change
+            name: '&4PodpalajacyLuk!'
+            enchants:
+                1:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: 'ARROW_INFINITE'
+                    #enchant power
+                    power: 1
+                2:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: 'ARROW_FIRE'
+                    #enchant power
+                    power: 1
+                3:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: 'ARROW_DAMAGE'
+                    #enchant power
+                    power: 2
+        2:
+            #id of item
+            id: 322
+            #how many this item in stack
+            amount: 1
+            #name on item
+            name: '&4MagiczneJablko!'
+            enchants:
+                1:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: '0'
+                    #enchant power
+                    power: 2
+
+        3:
+            #id of item
+            id: 262
+            #how many this item in stack
+            amount: 1
+            #name on item
+            name: '&4Strzala!'
+            enchants:
+                1:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: '0'
+                    #enchant power
+                    power: 2
+        4:
+            #id of item
+            id: 299
+            #how many this item in stack
+            amount: 1
+            #name on item
+            name: '&4SkorzanaKortka!'
+            enchants:
+                1:
+                    #name of enchant// with capslock // if no enchant type '0'
+                    enchant: 'PROTECTION_ENVIRONMENTAL'
+                    #enchant power
+                    power: 1
+    effects:
+        1:
+            #name of effect// with capslock // if no effect type '0'
+            name: 'SPEED'
+            #time in ticks // 20 ticks = 1s
+            time: 50
+            #lvl of effect
+            lvl: 1
+        2:
+            #name of effect// with capslock // if no effect type '0'
+            name: 'JUMP'
+            #time in ticks // 20 ticks = 1s
+            time: 400
+            #lvl of effect
+            lvl: 2

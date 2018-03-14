@@ -1,0 +1,12 @@
+name: PandaGunGame
+main: me.panda.minecraft.gungame.Main
+author: Panda
+version: 2.0
+commands:
+    opusc:
+        description: opusc arene
+    elo:
+        description: Check ur/sb elo
+        aliases: [ranking]
+    top:
+        description: Check top 10 elo/kills/wins players
